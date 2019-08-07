@@ -6,7 +6,9 @@ A simple Hello World WordPress Plugin build with React JS.
 
 ## Getting Started
 
-### Install plugin with zip
+Before start you need to setup the Node.
+
+#### Install plugin with zip
 
 - Download the plugin **WP ReactJs Plugin** zip https://github.com/maheshwaghmare/wp-reactjs-plugin/archive/master.zip
 - Goto `Plugins > Add New`
@@ -15,7 +17,7 @@ A simple Hello World WordPress Plugin build with React JS.
 
 OR
 
-### Install with Github
+#### Install with Github
 
 - Open CMD/Command Prompt
 - Goto directory `/wp-content/`
@@ -24,3 +26,26 @@ OR
 - If you have WP CLI setup then activate plugin with command `wp plugin activate wp-reactjs-plugin` press Enter.
 or
 - Simply goto `Plugins` and activate **WP ReactJs Plugin**.
+
+## Install All Dependancies
+
+- Execute command `npm install` to install all the dependancies.
+
+## How plugin works?
+
+In plugin there are two main files.
+
+- `/src/index.jsx` // React JS file.
+- `/dist/bundle.js` // Compiled JS file.
+
+The file `bundle.js` is auto generate from the `index.jsx` which is configure in the file `webpack.config.js`
+
+## How to work on ReactJS?
+
+Note that the changes from the the `index.jsx` does not reflect until we compile and build the `bundle.js`.
+
+- Use command `npm run build` to compile and build.
+- Use command `npm run dev` while development. This command auto compile and build the `bundle.js` after we save change from the file `index.jsx`.
+
+See video:
+
