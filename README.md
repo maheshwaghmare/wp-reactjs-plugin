@@ -50,3 +50,7 @@ Note that the changes from the the `index.jsx` does not reflect until we compile
 See below video of debugging and testing video of above both commands:
 
 [![Watch the video](https://img.youtube.com/vi/RuM-GZ5SlzU/maxresdefault.jpg)](https://youtu.be/RuM-GZ5SlzU)
+
+## Credits!
+
+- [@faisal-alvi](https://github.com/faisal-alvi/basic-react-files-for-wordpress)
