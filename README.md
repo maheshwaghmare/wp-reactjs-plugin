@@ -54,3 +54,4 @@ See below video of debugging and testing video of above both commands:
 ## Credits!
 
 - [@faisal-alvi](https://github.com/faisal-alvi/basic-react-files-for-wordpress)
+# wp-starter-templates
